@@ -1,0 +1,87 @@
+.main-footer{
+    /* background-color:#1f2f98; */
+    background: #045fbb;
+    background: -webkit-linear-gradient(to left, #1f2f98, #045fbb);
+    background: linear-gradient(to left, #1f2f98, #045fbb);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand';
+    align-items: center;
+}
+/* ############### logo footer ################## */
+.footer-img{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.footer-img1{
+    background: url(../../ImgPag/logonav.png);
+    background-size: cover;
+    position: relative;
+    width: 127.5px;
+    height: 40%;
+}
+.footer-img-text{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+/* ############### text footer ################## */
+
+.footer-text{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    color: white;
+    width: 1080px;
+}
+.footer-text li{
+    list-style: none;
+    margin-top: 1vh;
+}
+.footer-text ul{
+    padding-left: 0;
+    margin-top: 0;
+}
+.footer-text h1{
+    font-size: 20px;
+}
+.footer-text a{
+    text-decoration: none;
+    color: white;
+}
+.footer-text a:hover{
+    opacity: 0.5;
+}
+
+/* ################responsive################### */
+
+@media screen and (max-width: 1348px){
+    .main-footer{
+        height: 405px;
+    }
+}
+@media screen and (max-width: 680px){
+    .main-footer{
+        height: 700px;
+    }
+    .footer-text{
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    .footer-text ul{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+}

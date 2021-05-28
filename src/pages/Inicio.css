@@ -1,0 +1,169 @@
+.main-box{
+    display: flex;
+    font-family: 'Quicksand';
+    padding: 0;
+    margin: 0;
+    height: 2180px;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+}
+
+/* ################  START BOX 1  ####################  */
+
+.box1-image{
+    background: url(../ImgPag/box1logo.png) ;
+    background-size: cover;
+    position: relative;
+    width:100%;
+    height: 100%;
+
+}
+.box1{
+    background: #56ccf2; 
+    background: -webkit-linear-gradient(to right, #56ccf2, #2f80ed); 
+    background: linear-gradient(to right, #56ccf2, #2f80ed); 
+    height: 720px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box1-center{
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    width: 500px;
+}
+.box1-text {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.box1-text h5{
+    margin: 0;
+    padding-bottom: 4vh;
+    font-size: 2em;
+}
+.box1-text h1{
+    font-weight: 900;
+    font-size: 4em;
+    margin: 0;
+    padding: 20px 0 5px 0 ;
+}
+
+/* ################  START BOX 2  ####################  */
+
+.box2{
+    background: #1CD8D2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93EDC7, #1CD8D2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93EDC7, #1CD8D2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 10px 0;
+    height: 720px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+.box2-image{
+    background: url(../ImgPag/box2-img.png);
+    background-size: cover;
+    position: relative;
+    width: 609px;
+    height: 343px;
+}
+.box2-text{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 720px;
+    height: 550px;
+    align-items: center;
+}
+.box2-text h5{
+    font-size: 1.4em;
+    text-align: center;
+}
+.box2-text h1{
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0 0 32px 0;
+}
+/* ################  START BOX 3  ####################  */
+.box3{
+    background: #4776E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    height: 720px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+.box3-image{
+    background: url(../ImgPag/box3-img.png);
+    background-size: cover;
+    position: relative;
+    width: 410px;
+    height: 550px;
+}
+.box3-text{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 720px;
+    height: 550px;
+    align-items: center;
+}
+.box3-text h5{
+    font-size: 1.4em;
+    text-align: center;
+}
+.box3-text h1{
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0 0 32px 0;
+}
+@media screen and (max-width: 1348px){
+    /* ##################################### */
+    .box2{
+        flex-flow: column nowrap;
+    }
+    .box2-text{
+        width: 660px;
+        height: auto;
+    }    
+    .box2-text h1{
+        margin: 0;
+    }
+    .box2-image{
+        width: 491px;
+        height: 276px;
+    }
+    /* #################################### */
+    .box3{
+        flex-flow: column nowrap;
+    }
+    .box3-text{
+        width: 660px;
+        height: auto;
+    }
+    .box3-text h1{
+        margin: 0;
+    }
+    .box3-image{
+        width: 205px;
+        height: 275px;
+    }
+}
+

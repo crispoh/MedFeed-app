@@ -1,0 +1,42 @@
+.fondo-solid{
+    background: #56ccf2; 
+    background: -webkit-linear-gradient(to right, #56ccf2, #2f80ed); 
+    background: linear-gradient(to right, #56ccf2, #2f80ed); 
+    background-size: cover;
+    width: 100%;
+    min-height: 76vh;
+    font-family: 'Quicksand';
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: space-around;
+    padding: 1.5em 0;
+}
+.up-contacto{
+    display: flex;
+    justify-content: center;
+    font-size: 2.3em;
+    margin-bottom: 5vh;
+}
+.up-contacto h1{
+    margin: 0;
+}
+.down-contacto{
+    margin: 0 20vw;
+    font-size: 1.4em;
+}
+.contact-text{
+    margin-bottom: 1.5em;
+    font-weight: bold;
+}
+.contact-text a:hover{
+    color: white;
+}
+#pegado{
+    margin-bottom: 0;
+    font-size: 1.3em;
+}
+.devolver{
+    display: flex;
+    justify-content: center;
+}
