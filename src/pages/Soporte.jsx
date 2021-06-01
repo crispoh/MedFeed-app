@@ -1,44 +1,59 @@
 import React from "react";
 import "./Soporte.css";
-import { Link } from "react-router-dom";
 import Boton from "../components/Boton/Boton";
+import { useForm } from "react-hook-form";
 
 export default function Soporte() {
+  const { register, handleSubmit } = useForm();
+  const onSubmit = (data) => console.log(data);
+
   return (
     <>
       <div className="main-ayuda">
-        <div className="main-title">
           <h1>Soporte</h1>
-        </div>
         <div className="form-pic">
-          <div className="form-left">
-            <form>
-              <div className="text-form">
-                <h5>Nombre:</h5>
-              </div>
-              <input type="text" name="full-w" id="name" required />
-              <div className="text-form">
-                <h5>Email:</h5>
-              </div>
-              <input type="email" name="full-w" id="email" required />
-              <div className="text-form">
-                <h5>Tipo de soporte:</h5>
-              </div>
-              <select name="full-w" id="select" required>
-                <option value="none" disabled>
-                  Seleccionar
-                </option>
+            <form onSubmit={handleSubmit(onSubmit)}>
+             <div className="form-left">
+              <h5>Nombre:</h5>
+              <input
+                type="text"
+                name="full-w"
+                id="name"
+                {...register("name", { required: true })}
+              />
+              <h5>Email:</h5>
+              <input
+                type="email"
+                name="full-w"
+                id="email"
+                {...register("email", { required: true })}
+              />
+              <h5>Tipo de soporte:</h5>
+              <select
+                name="full-w"
+                id="select"
+                {...register("type", { required: true })}
+              >
+                <option value="none">Seleccionar</option>
                 <option value="soporte">Soporte</option>
                 <option value="bug">Error de pagina</option>
                 <option value="problema">Problema</option>
-                <option value="orientacion">Orientacion</option>
+                <option value="orientacion">Orientaci&oacute;n</option>
               </select>
-              <div className="text-form">
-                <h5>Comentario:</h5>
-              </div>
-              <textarea name="coment" id="coment" cols="60" rows="5"></textarea>
+              <h5>Comentario:</h5>
+              <textarea
+                name="coment"
+                id="coment"
+                cols="60"
+                rows="5"
+                {...register("text", { required: true })}
+              ></textarea>
+              </div> 
+              <div className="boton-login">
+              <Boton type="submit" value="Enviar >" />
+              </div> 
             </form>
-          </div>
+     
           <div className="right">
             <div className="text-right">
               <h3>
@@ -48,11 +63,6 @@ export default function Soporte() {
             </div>
             <div className="right-pic"></div>
           </div>
-        </div>
-        <div className="main-title">
-          <Link to="#">
-            <Boton type="submit" value="Enviar >"/>
-          </Link>
         </div>
       </div>
     </>

@@ -14,10 +14,13 @@ export default function Navbar() {
     }
     return menu;
   };
+
   return (
     <>
       <nav>
-        <a className="logo" href="/"></a>
+        <a className="logo" href="/">
+          {" "}
+        </a>
         <ul className={desplegarMenu()}>
           <li className="link">
             <Link to="/home"> Home</Link>
