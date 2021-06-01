@@ -1,70 +1,75 @@
-.fondo-login{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    background: url(../ImgPag/fondo-login.png);
-    background-size: cover;
-    height: 885px;
-    font-family: 'Quicksand';
+.fondo-login {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background: url(../ImgPag/fondo-login.png);
+  background-size: cover;
+  height: 885px;
+  font-family: "Quicksand";
 }
-.img-paciente{
-    background: url(../ImgPag/paciente.png);
-    background-size: cover;
-    width: 170px;
-    height: 170px;
-    margin-bottom: -10px;
-
+.img-paciente {
+  background: url(../ImgPag/paciente.png);
+  background-size: cover;
+  width: 170px;
+  height: 170px;
+  margin-bottom: -20px;
+  z-index: 1;
 }
-.img-medico{
-    background: url(../ImgPag/medico.png);
-    background-size: cover;
-    width: 170px;
-    height: 170px;
-    margin-bottom: -10px;
-
+.img-medico {
+  background: url(../ImgPag/medico.png);
+  background-size: cover;
+  width: 170px;
+  height: 170px;
+  margin-bottom: -20px;
+  z-index: 1;
 }
-.box-login{
-    background-color: rgba(255, 255, 255, 0.75);
-    box-sizing: border-box;
-    border-radius: 5%;
-    height: 510px;
-    width: 500px;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    margin: 0;
-    padding: 2vh 2vw;
+.box-login {
+  background-color: rgba(255, 255, 255, 0.75);
+  box-sizing: border-box;
+  border-radius: 5%;
+  height: 480px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 0;
+  padding: 2vh 2vw;
+}
+.main-form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 .titulo-login {
-    font-size: 1.5em;
-    font-weight: bold;
+  font-size: 1.5em;
+  font-weight: bold;
 }
-.titulo-login h2{
-    margin:30px 0 0 0;
+.titulo-login h2 {
+  margin: 30px 0 0 0;
 }
-.formulario-login{
-    display: flex;
-    box-sizing: border-box;
-    flex-flow: column nowrap;
-    width: 100%;
-    margin-bottom: 2vh;
-    font-size: 2.3em;
+.formulario-login {
+  display: flex;
+  box-sizing: border-box;
+  flex-flow: column nowrap;
+  width: 100%;
+  margin-bottom: 2vh;
+  font-size: 2.3em;
 }
-.formulario-login h6{
-    margin: 40px 0 0 0;
+.formulario-login h6 {
+  margin: 40px 0 0 0;
 }
-.formulario-login input{
-    width: 428px;
-    height: 46px;
-    box-sizing: border-box;
-    border-radius: 23px;
-    border-style: none;
-    background-color: rgba(169, 169, 169, 0.75);
-    margin: 5px 0 0 0;
-    font-size: 0.6em;
-    padding-left: 1em;
+.formulario-login input {
+  width: 428px;
+  height: 46px;
+  box-sizing: border-box;
+  border-radius: 23px;
+  border-style: none;
+  background-color: rgba(169, 169, 169, 0.75);
+  margin: 5px 0 0 0;
+  font-size: 0.6em;
+  padding-left: 1em;
 }
-.boton-login{
-    margin: 50px 0 0 0;
+.boton-login {
+  margin: 30px 0 0 0;
+  width: 150px;
 }

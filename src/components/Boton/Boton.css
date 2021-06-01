@@ -1,13 +1,12 @@
-.boton-main input{
-    background-color: #1f2f98;
-    border-radius: 15px;
-    font-family: 'Quicksand';
-    border: none;
-    font-size: 1.5rem;
-    color: white;
-    padding: 0.2em 0.5em;
-
+.boton-main input {
+  background-color: #1f2f98;
+  border-radius: 15px;
+  font-family: "Quicksand";
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  padding: 0.2em 0.5em;
 }
-.boton-main input:hover{
-    background-color: #1ca7ec;
-}                                                                                                      
+.boton-main input:hover {
+  background-color: #1ca7ec;
+}

@@ -13,6 +13,7 @@ import Footer from './components/Footer/Footer';
 import Contacto from './pages/Contacto';
 import Login_Medico from './pages/Login_Medico';
 import Login_Paciente from './pages/Login_Paciente';
+import Soporte from './pages/Soporte';
 
 
 
@@ -28,6 +29,7 @@ function App() {
           <Route exact path = "/contacto" component = {Contacto}/>
           <Route exact path = "/login_medico" component = {Login_Medico}/>
           <Route exact path = "/login_paciente" component = {Login_Paciente}/>
+          <Route exact path = "/soporte" component = {Soporte}/>
         </Switch>
         </Router>
       <Footer/>

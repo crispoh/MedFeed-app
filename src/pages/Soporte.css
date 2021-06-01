@@ -1,0 +1,63 @@
+.main-ayuda {
+  background: #56ccf2;
+  background: -webkit-linear-gradient(to right, #56ccf2, #2f80ed);
+  background: linear-gradient(to right, #56ccf2, #2f80ed);
+  background-size: cover;
+  width: 100%;
+  min-height: 76vh;
+  font-family: "Quicksand";
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 1.5em 0;
+  color: white;
+}
+.form-pic {
+  display: flex;
+  flex-flow: row wrap;
+}
+.form-left {
+  width: 670px;
+  box-sizing: border-box;
+  padding: 2vh 2vw;
+}
+.text-form h5 {
+  font-size: 1.4em;
+  margin: 2vh 0 5px 0;
+}
+form input,
+select,
+textarea {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  border-style: none;
+  background-color: rgba(255, 255, 255, 0.83);
+  font-size: 1.4em;
+  padding: 0 20px;
+}
+form textarea {
+  height: 160px;
+  box-sizing: border-box;
+  font-size: 1.5em;
+  padding: 10px 20px;
+}
+.right {
+  width: 670px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 2vh 2vw;
+}
+.right h3 {
+  font-size: 1.4em;
+  text-align: center;
+}
+.right-pic {
+  background: url(../ImgPag/help-pic.png);
+  background-size: cover;
+  width: 456px;
+  height: 430px;
+}

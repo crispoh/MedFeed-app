@@ -1,87 +1,87 @@
-.fondo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.33);
-    background-size: cover;
-    height: 885px;
-    font-family: 'Quicksand';
-    flex-flow: column nowrap;
+.fondo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.33);
+  background-size: cover;
+  height: 885px;
+  font-family: "Quicksand";
+  flex-flow: column nowrap;
 }
-.mainfondo{
-    background-image: url("../ImgPag/homefondo.jpg");
-    background-size: cover;
-    height: 885px;
-    padding: 0;
-    margin: 0;
+.mainfondo {
+  background-image: url("../ImgPag/homefondo.jpg");
+  background-size: cover;
+  height: 885px;
+  padding: 0;
+  margin: 0;
 }
-.up{
-    display: flex;
-    flex-direction: column;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    font-size: 2vh;
-    margin-bottom: 1vh;
+.up {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vh;
+  margin-bottom: 1vh;
 }
-.down{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-content: center;
-    width: 100%;
+.down {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 100%;
 }
-.medicoinicio{
-    background-color: #ffffff59;
-    border-radius:44px;
-    width: 456px;
-    height: 387px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
+.medicoinicio {
+  background-color: #ffffff59;
+  border-radius: 44px;
+  width: 456px;
+  height: 387px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
 }
-.pacienteinicio{
-    background-color: #ffffff59;
-    border-radius:44px;
-    width: 456px;
-    height: 387px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
+.pacienteinicio {
+  background-color: #ffffff59;
+  border-radius: 44px;
+  width: 456px;
+  height: 387px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
 }
-.logonombre{
-    background-image: url(../ImgPag/logonombre.png);
-    background-size: cover;
-    width: 372px;
-    height: 263px;
+.logonombre {
+  background-image: url(../ImgPag/logonombre.png);
+  background-size: cover;
+  width: 372px;
+  height: 263px;
 }
-.logomedico{
-    background-image: url(../ImgPag/medico.png);
-    background-size: cover;
-    width: 228px;
-    height: 198px;
+.logomedico {
+  background-image: url(../ImgPag/medico.png);
+  background-size: cover;
+  width: 228px;
+  height: 198px;
 }
-.logopaciente{
-    background-image: url(../ImgPag/paciente.png);
-    background-size: cover;
-    width: 228px;
-    height: 198px;
+.logopaciente {
+  background-image: url(../ImgPag/paciente.png);
+  background-size: cover;
+  width: 228px;
+  height: 198px;
 }
 
-@media screen and (max-width: 944px){
-     .fondo{
-         height: 1200px;
-     }
-     .mainfondo{
-         height: 1200px;
-     }
-     .down{
-         flex-flow: column nowrap;
-         align-items: center;
-     }
-     .medicoinicio{
-         margin-bottom: 20px;
-     }
- }
+@media screen and (max-width: 944px) {
+  .fondo {
+    height: 1200px;
+  }
+  .mainfondo {
+    height: 1200px;
+  }
+  .down {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  .medicoinicio {
+    margin-bottom: 20px;
+  }
+}
